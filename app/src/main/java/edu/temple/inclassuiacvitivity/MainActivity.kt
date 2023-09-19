@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         val displayTextView = findViewById<TextView>(R.id.textDisplay)
 
         /* Step 1: Populate this array */
-        val numberArray = arrayOfNulls<Number>(11)
+        val numberArray = arrayOfNulls<Number>(100)
         for( i in numberArray.indices ){
-            numberArray[i] = i * i
+            numberArray[i] = i + 1
         }
 
 
